@@ -12,7 +12,7 @@ Implementar y validar una red neuronal basica
 Se realizaron 4 casos de prueba con combinaciones binarias [1,1], [1,0],[0,1],[0,0], y asi observar como varia el puntaje z y la lasificaión final segun los pesos de asignados.
 
 # Resultados Principales 
-Se pude ver que el modelo puede clasificar correctamente las entradas, demostrando que la neurona se activa cuando el  puntaje z es igual o superior al del umbral establecido. En las pruebas se evidencio en caso 1 y2  que un peso alto (0.7) es suficiente para alcanzar el umbral incluso si una de las entradas es 0.
+Se pude ver que el modelo puede clasificar correctamente las entradas, demostrando que la neurona se activa cuando el  puntaje z es igual o superior al del umbral establecido. En las pruebas se evidencio en caso 1 y 2  que un peso alto (0.7) es suficiente para alcanzar el umbral incluso si una de las entradas es 0.
 
 # Cómo Ejecutar
 

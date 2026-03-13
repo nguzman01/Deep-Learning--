@@ -1,4 +1,4 @@
-# Implementación de Backpropagation 
+
 
 # Objetivo
 

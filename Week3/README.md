@@ -4,7 +4,7 @@
 
 # Implementación 
 
- - Una red neuronal con una capa oculta de 4 neuronas.
+ - Red neuronal con una capa oculta de 4 neuronas.
  - Algoritmo de Backpropagation, programado manualmente en Python/numpy.
  - Comparativa entre las funciones de activación Sigmoid y ReLu.
    

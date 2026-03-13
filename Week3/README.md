@@ -1,17 +1,17 @@
 
 
 # Objetivo
-
+Implementar una red neuronal con backpropagation para comparar el desempeño de las funciones de activación Sigmoid y ReLU en la reducción del error (MSE)
 # Implementación 
 
  - Red neuronal con una capa oculta de 4 neuronas.
  - Algoritmo de Backpropagation, programado manualmente en Python/numpy.
  - Comparativa entre las funciones de activación Sigmoid y ReLu.
    
-# Que Activaciones se compararón
-En este casos, se evaluaron dos funciones distintas en la capa oculta.
+# Que Activaciones se compararon
+En este caso, se evaluaron dos funciones distintas en la capa oculta.
  1. Sigmoid (Sigmoide) Una función que comprime los vectores entre 0 y 1, propensa al desvanecimiento     del gradiente.
- 2. ReLu (Rectified Linear unit) una finción lineal para volores positivos que aceleran el                entrenamiento al enviar la saturacion de gradientes.
+ 2. ReLu (Rectified Linear unit) una función lineal para valores positivos que aceleran el                entrenamiento al enviar la saturación de gradientes.
 
 
 # Resultados Principales
@@ -20,5 +20,5 @@ En este casos, se evaluaron dos funciones distintas en la capa oculta.
  
 # Como se ejecuta 
 
-1. Abrir el archivo terminado en '.ipynb' en Google Colad.
+1. Abrir el archivo terminado en '.ipynb' en Google Colab.
 2. Ejecutar las celdas en orden secuencial para reproducir la grafica y las predicciones.

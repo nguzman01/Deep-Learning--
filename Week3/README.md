@@ -1,21 +1,28 @@
 
 
 # Objetivo
-Implementar una red neuronal con backpropagation para comparar el desempeño de las funciones de activación Sigmoid y ReLU en la reducción del error (MSE)
-# Implementación 
+Implementación de Backpropagation y Funciones de Activación en Redes Neuronales
 
- - Red neuronal con una capa oculta de 4 neuronas.
- - Algoritmo de Backpropagation, programado manualmente en Python/numpy.
- - Comparativa entre las funciones de activación Sigmoid y ReLu.
-   
+# Implementación
+
+Se desarrollaron tres arquitecturas.
+- Perceptrón Simple: Sin capas ocultas (modelo lineal).
+- Red Monocapa: Una capa oculta con 4 neuronas.
+- Red Multicapa: Dos capas ocultas (4 neuronas cada una).
+  
+Luego se programó manualmente el flujo de Forward Propagation y el cálculo de gradientes para el Backpropagation, asegurando que el error se distribuya correctamente a través de la regla de la cadena.
+  
 # Que Activaciones se compararon
-En este caso, se evaluaron dos funciones distintas en la capa oculta.
- 1. Sigmoid (Sigmoide) Una función que comprime los vectores entre 0 y 1, propensa al desvanecimiento     del gradiente.
- 2. ReLu (Rectified Linear unit) una función lineal para valores positivos que aceleran el                entrenamiento al enviar la saturación de gradientes.
+
+Se realizo una comparación de activaciones y se constrastaron las siguientes funciones:
+- Sigmoide: Aplicada en modelos simples y como capa de salida.
+- ReLU: Implementada en la red multicapa para mitigar el desvanecimiento del gradiente.
 
 
 # Resultados Principales
--  Se evidencia que ReLu supero a Sigmoid en precisión, entregando valores finales mucho más cercanos a   0 y 1.
+
+El Perceptrón falló en el problema XOR (precisión del 25-50%), confirmando que no puede resolver problemas no lineales.
+La Red Multicapa con ReLU fue la única que logró una precisión del 100%, demostrando una convergencia mucho más rápida y eficiente que el uso exclusivo de funciones sigmoides en capas profundas
 -  Se logro una reducción del error (MSE) significativa en ambos modelos   tras 5000 épocas.
  
 # Como se ejecuta 

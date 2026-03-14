@@ -3,7 +3,7 @@
 # Objetivo
 Implementación de Backpropagation y Funciones de Activación en Redes Neuronales
 
-# Implementación
+# Implementación 
 
 Se desarrollaron tres arquitecturas.
 - Perceptrón Simple: Sin capas ocultas (modelo lineal).

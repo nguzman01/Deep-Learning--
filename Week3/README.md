@@ -7,7 +7,7 @@ Implementación de Backpropagation y Funciones de Activación en Redes Neuronale
 
 Se desarrollaron tres arquitecturas.
 - Perceptrón Simple: Sin capas ocultas (modelo lineal).
-- Red Monocapa: Una capa oculta con 4 neuronas.
+- Red  Monocapa: Una capa oculta con 4 neuronas.
 - Red Multicapa: Dos capas ocultas (4 neuronas cada una).
   
 Luego se programó manualmente el flujo de Forward Propagation y el cálculo de gradientes para el Backpropagation, asegurando que el error se distribuya correctamente a través de la regla de la cadena.

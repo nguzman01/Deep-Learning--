@@ -18,4 +18,8 @@ Comparación realizada: Modelo MLP de 3 capas sin restricciones vs. Modelo MLP c
 
 - Dificultades: Ajustar la tasa de Dropout; un valor muy alto (0.8) causaba underfitting, por lo que se estabilizó en 0.5 para equilibrar el aprendizaje.
 
-# como ejecutar el notebook
+# Cómo ejecutar el notebook
+
+Abrir el archivo terminado en '.ipynb' en Google Colab.
+Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todas
+

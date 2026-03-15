@@ -5,7 +5,7 @@ Implementar técnicas de regularización para reducir el sobreajuste y mejorar l
 
 # Métodos de regularización aplicados:
 
-- Dropout (0.5): Se aplicó en las capas ocultas para desactivar aleatoriamente neuronas y evitar la co-adaptación.
+-  Dropout (Abandono) : Se aplicó en las capas ocultas para desactivar aleatoriamente neuronas y evitar la co-adaptación.
 - Regularización L2 (Weight Decay): Implementada en el optimizador con un factor de 1e-4 para penalizar pesos excesivamente grandes.
   
 Comparación realizada: Modelo MLP de 3 capas sin restricciones vs. Modelo MLP con Dropout y Weight Decay.

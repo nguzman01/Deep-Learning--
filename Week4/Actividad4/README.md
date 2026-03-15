@@ -17,7 +17,7 @@ Modelo MLP(Multi-Layer perceptron) de 3 capas sin restricciones vs. Modelo MLP c
   
 - Efecto de la Regularización: El modelo regularizado muestra curvas de entrenamiento y evaluación mucho más cercanas entre sí. Aunque el error inicial es ligeramente más alto, la brecha entre entrenamiento y prueba se reduce drásticamente, lo que indica una mejor generalización
 
-- Dificultades: Ajustar la tasa de Dropout; un valor muy alto (0.8) causaba underfitting, por lo que se estabilizó en 0.5 para equilibrar el aprendizaje.
+- Dificultades: Ajustar la tasa de abandono(Dropout rate); un valor muy alto (0.8) causaba underfitting, por lo que se estabilizó en 0.5 para equilibrar el aprendizaje.
 
 # Cómo ejecutar el notebook
 

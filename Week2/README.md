@@ -4,16 +4,20 @@
 Implementar y validar una red neuronal basica 
 
 # Implementacion 
-* Entradas(X) y pesos (W): Definición de vectores para la toma de deciciones.
-* Sesgos (bias): Ajuste de sensibilidad del modelo.
-* Puntaje Z: Calculo de la suma ponderada ($z = \sum (x_i \cdot w_i) + b$).
-* Funcion de Activación: Clasificación binaria (0 o 1) basadaen el umbral.
+
 
 # Pruebas Realizadas
-Se realizaron 4 casos de prueba con combinaciones binarias [1,1], [1,0],[0,1],[0,0], y asi observar como varia el puntaje z y la lasificaión final segun los pesos de asignados.
+Para validar la lógica de la neurona, se realizó una prueba controlada utilizando los pesos reales aprendidos por el modelo base:
+**Puntaje Z calculado:** 1.7055
+**Salida de clasificación (Umbral):** 1
+**Resultado:** Se verificó que la lógica manual coincide con la predicción del modelo entrenado, validando la comprensión del funcionamiento interno de la neurona.
+
 
 # Resultados Principales 
-Se pude ver que el modelo puede clasificar correctamente las entradas, demostrando que la neurona se activa cuando el  puntaje z es igual o superior al del umbral establecido. En las pruebas se evidencio en caso 1 y 2  que un peso alto (0.7) es suficiente para alcanzar el umbral incluso si una de las entradas es 0.
+**Modelo MLP:** Alcanzó un **74% de precisión (Accuracy)**.
+**Métricas:** El modelo presenta un desempeño balanceado entre precisión y sensibilidad (recall) para ambas clases.
+**Conclusión:** El puntaje Z actúa como el motor de decisión; valores positivos activan la neurona hacia la clase de riesgo, demostrando la importancia de la configuración de pesos y bias en la frontera de decisión.
+
 
 # Cómo Ejecutar
 

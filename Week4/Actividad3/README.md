@@ -7,9 +7,9 @@ Evaluar y comparar el impacto de diferentes algoritmos de optimización en el pr
 # Técnicas Comparada
 Se realizó un análisis comparativo entre:
 
-El optimizador SGD (Stochastic Gradient Descent) con un `learning_rate=0.01` como modelo base. 
+El optimizador SGD (Stochastic Gradient Descent) con un learning_rate=0.01 como modelo base. 
 
-El optimizador Adam (Adaptive Moment Estimation) con un `learning_rate=0.001` como técnica de optimización avanzada.
+El optimizador Adam (Adaptive Moment Estimation) con un learning_rate=0.001 como técnica de optimización avanzada.
 
 # Configuración Base
 Se utilizó una red neuronal densa entrenada durante 50 épocas con un tamaño de lote (Batch Size) de 32 sobre el conjunto de datos Diabetes. La arquitectura consiste en una capa de entrada, una capa oculta de 32 neuronas (ReLU) y una capa de salida (Sigmoid).

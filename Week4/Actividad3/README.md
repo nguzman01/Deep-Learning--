@@ -1,20 +1,26 @@
 # Actividad 3: Aplicación de Técnicas de Optimización en una Red Neuronal
 
 # Objetivo
-Evaluar y comparar el impacto de diferentes algoritmos de optimización en el proceso de entrenamiento de una red neuronal profunda, analizando su velocidad de convergencia y estabilidad.
+Evaluar y comparar el impacto de diferentes algoritmos de optimización en el proceso de entrenamiento de una red neuronal profunda, analizando su velocidad de convergencia, estabilidad y precisión final en un problema de clasificación.
 
 
 # Técnicas Comparada
-Se realizó un análisis comparativo entre el optimizador SGD (Stochastic Gradient Descent) como modelo base y el optimizador Adam (Adaptive Moment Estimation) como técnica de optimización avanzada.
+Se realizó un análisis comparativo entre:
+
+El optimizador SGD (Stochastic Gradient Descent) con un `learning_rate=0.01` como modelo base. 
+
+El optimizador Adam (Adaptive Moment Estimation) con un `learning_rate=0.001` como técnica de optimización avanzada.
 
 # Configuración Base
-Se utilizó una red neuronal densa (SimpleNet) entrenada durante 8 épocas con una tasa de aprendizaje (Learning Rate) de 0.01 y un tamaño de lote (Batch Size) de 64 sobre el dataset MNIST.
+Se utilizó una red neuronal densa entrenada durante 50 épocas con un tamaño de lote (Batch Size) de 32 sobre el conjunto de datos Diabetes. La arquitectura consiste en una capa de entrada, una capa oculta de 32 neuronas (ReLU) y una capa de salida (Sigmoid).
 
 # Resultado Principal
-Adam demostró una convergencia significativamente más rápida en las primeras épocas, reduciendo la pérdida inicial un 48.4% respecto a SGD (pasando de 0.7498 a 0.3869 en la Época 1). 
-Sin embargo, se observó que mientras SGD mantuvo un descenso constante hasta el final (0.2213), Adam presentó una ligera inestabilidad en la última época, subiendo a 0.2316, lo que sugiere que para esta configuración específica, SGD logró una mayor estabilidad final
+El optimizador Adam demostró una convergencia significativamente más rápida y efectiva, alcanzando una precisión final en el set de prueba del 82.02% y una pérdida (loss) de 0.4358.
+Por otro lado, SGD mostró un progreso más lento, finalizando con una precisión del 77.52% y una pérdida de 0.5384. 
+Esto confirma que Adam es más eficiente para este conjunto de datos, logrando mejores métricas en el mismo número de épocas.
+
 
 # Cómo ejecutar el notebook
 1. Abrir el archivo terminado en '.ipynb' en Google Colab.
 2. Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todas
-3. Las graficas de comparacion se generaran al final del entrenamiento. 
+3.Las gráficas de comparación y la matriz de confusión se generarán automáticamente al final. 

@@ -9,7 +9,9 @@ Implementar y validar una red neuronal basica
 # Pruebas Realizadas
 Para validar la lógica de la neurona, se realizó una prueba controlada utilizando los pesos reales aprendidos por el modelo base:
 **Puntaje Z calculado:** 1.7055
+
 **Salida de clasificación (Umbral):** 1
+
 **Resultado:** Se verificó que la lógica manual coincide con la predicción del modelo entrenado, validando la comprensión del funcionamiento interno de la neurona.
 
 

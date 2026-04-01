@@ -5,9 +5,14 @@ Implementar y validar una red neuronal basica
 
 # Implementacion 
 
+**Dataset:** Se utilizó load_diabetes, transformándolo en un problema de clasificación binaria (0: bajo riesgo, 1: riesgo alto) basado en la mediana.
+**Preprocesamiento:** Los datos fueron normalizados con StandardScaler y divididos en 80% para entrenamiento y 20% para prueba.
+
+**Modelos:** Se entrenó una Regresión Logística como Baseline y un MLPClassifier (1 capa de 32 neuronas, activación ReLU).
 
 # Pruebas Realizadas
 Para validar la lógica de la neurona, se realizó una prueba controlada utilizando los pesos reales aprendidos por el modelo base:
+
 **Puntaje Z calculado:** 1.7055
 
 **Salida de clasificación (Umbral):** 1

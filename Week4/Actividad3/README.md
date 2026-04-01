@@ -16,7 +16,7 @@ Se utilizó una red neuronal densa entrenada durante 50 épocas con un tamaño d
 
 # Resultado Principal
 El optimizador Adam demostró una convergencia significativamente más rápida y efectiva, alcanzando una precisión final en el set de prueba del 82.02% y una pérdida (loss) de 0.4358.
-Por otro lado, SGD mostró un progreso más lento, finalizando con una precisión del 77.52% y una pérdida de 0.5384. 
+Por otro lado, SGD mostró un progreso más lento, finalizando con una precisión del "77.52%" y una pérdida de "0.5384". 
 Esto confirma que Adam es más eficiente para este conjunto de datos, logrando mejores métricas en el mismo número de épocas.
 
 

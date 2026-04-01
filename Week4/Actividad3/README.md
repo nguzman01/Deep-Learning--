@@ -1,10 +1,10 @@
-# Actividad 3: Aplicación de Técnicas de Optimización en una Red Neuronal
+# Actividad 3: Técnicas de Optimización en una Red Neuronal
 
 # Objetivo
 Evaluar y comparar el impacto de diferentes algoritmos de optimización en el proceso de entrenamiento de una red neuronal profunda, analizando su velocidad de convergencia, estabilidad y precisión final en un problema de clasificación.
 
 
-# Técnicas Comparada
+# Técnicas Comparadas
 Se realizó un análisis comparativo entre:
 
 El optimizador SGD (Stochastic Gradient Descent) con un learning_rate=0.01 como modelo base. 

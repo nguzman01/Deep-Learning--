@@ -24,4 +24,4 @@ Esto confirma que Adam es más eficiente para este conjunto de datos, logrando m
 # Cómo ejecutar el notebook
 1. Abrir el archivo terminado en '.ipynb' en Google Colab.
 2. Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todas
-3.Las gráficas de comparación y la matriz de confusión se generarán automáticamente al final. 
+3. Las gráficas de comparación y la matriz de confusión se generarán automáticamente al final. 

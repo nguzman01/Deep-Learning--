@@ -15,13 +15,20 @@ El optimizador Adam (Adaptive Moment Estimation) con un learning_rate=0.001 como
 Se utilizó una red neuronal densa entrenada durante 50 épocas con un tamaño de lote (Batch Size) de 32 sobre el conjunto de datos Diabetes. La arquitectura consiste en una capa de entrada, una capa oculta de 32 neuronas (ReLU) y una capa de salida (Sigmoid).
 
 # Resultado Principal
-El optimizador Adam demostró una convergencia significativamente más rápida y efectiva, alcanzando una precisión final en el set de prueba del 82.02% y una pérdida (loss) de 0.4358.
+El optimizador Adam demostró una convergencia significativamente más rápida y efectiva, alcanzando una precisión final en el set de prueba del 82.02% y una pérdida (loss) de 0.4458.
 
-Por otro lado, SGD mostró un progreso más lento, finalizando con una precisión del 77.52%  y una pérdida de 0.5384. 
+Por otro lado, SGD mostró un progreso más lento, finalizando con una precisión del 77.52%  y una pérdida de 0.4670. 
 Esto confirma que Adam es más eficiente para este conjunto de datos, logrando mejores métricas en el mismo número de épocas.
+
+
+
+| Configuración | Optimizador | Accuracy (Test) | Loss (Test) |
+| :--- | :--- | :--- | :--- |
+| A (Base) | SGD (lr=0.01) | 77.52% | 0.4670 |
+| B (Optimizada) | Adam (lr=0.001) | 82.02% | 0.4458 |
 
 
 # Cómo ejecutar el notebook
 1. Abrir el archivo terminado en '.ipynb' en Google Colab.
 2. Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todas
-3. Las gráficas de comparación y la matriz de confusión se generarán automáticamente al final. 
+3. Las gráficas de comparación y la matriz de confusión se generarán automáticamente al final.

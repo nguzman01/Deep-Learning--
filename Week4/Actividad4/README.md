@@ -1,34 +1,14 @@
-# Actividad 3: Técnicas de Optimización en una Red Neuronal
+ Actividad 4: Métodos de Regularización en una Red Neuronal
+Objetivo
+Implementar técnicas de regularización para reducir el sobreajuste y mejorar la generalización del modelo.
 
-# Objetivo
-Implementar y comparar técnicas de optimización (SGD vs. Adam) en una red neuronal.
+Métodos de regularización aplicados:
+Dropout (Abandono) :Se implementó la técnica de Dropout con una tasa de 0.2 (20%), aplicada tras la capa oculta densa de 64 neuronas.
+Comparación realizada:
+Se comparó el desempeño de una arquitectura base (sin regularización) frente a una arquitectura regularizada bajo las mismas condiciones de entrenamiento (100 épocas, optimizador Adam).
 
+Resultado Principal:
+El modelo con Dropout logró eliminar la tendencia alcista de la pérdida de validación observada en el modelo base, logrando una curva de aprendizaje más estable y un mejor desempeño final en los datos de prueba.
 
-# Técnicas Comparadas
-Se realizó un análisis comparativo entre:
-
-El optimizador SGD (Stochastic Gradient Descent) con un learning_rate=0.01 como modelo base. 
-
-El optimizador Adam (Adaptive Moment Estimation) con un learning_rate=0.001 como técnica de optimización avanzada.
-
-# Configuración Base
-Se utilizó una red neuronal densa entrenada durante 50 épocas con un tamaño de lote (Batch Size) de 32 sobre el conjunto de datos Diabetes. La arquitectura consiste en una capa de entrada, una capa oculta de 32 neuronas (ReLU) y una capa de salida (Sigmoid).
-
-# Resultado Principal
-El optimizador Adam demostró una convergencia significativamente más rápida y efectiva, alcanzando una precisión final en el set de prueba del 82.02% y una pérdida (loss) de 0.4458.
-
-Por otro lado, SGD mostró un progreso más lento, finalizando con una precisión del 77.52%  y una pérdida de 0.4670. 
-Esto confirma que Adam es más eficiente para este conjunto de datos, logrando mejores métricas en el mismo número de épocas.
-
-
-
-| Configuración | Optimizador | Accuracy (Test) | Loss (Test) |
-| :--- | :--- | :--- | :--- |
-| A (Base) | SGD (lr=0.01) | 77.52% | 0.4670 |
-| B (Optimizada) | Adam (lr=0.001) | 82.02% | 0.4458 |
-
-
-# Cómo ejecutar el notebook
-1. Abrir el archivo terminado en '.ipynb' en Google Colab.
-2. Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todas
-3. Las gráficas de comparación y la matriz de confusión se generarán automáticamente al final.
+Cómo ejecutar el notebook
+Abrir el archivo terminado en '.ipynb' en Google Colab. Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todasy si es coherente con el ejemplo y lo que pide la actividad

@@ -5,7 +5,7 @@ Implementar técnicas de regularización para reducir el sobreajuste y mejorar l
 # Métodos de regularización aplicados:
 Dropout (Abandono) :Se implementó la técnica de Dropout con una tasa de 0.2 (20%), aplicada tras la capa oculta densa de 64 neuronas.
 Comparación realizada:
-Se comparó el desempeño de una arquitectura base (sin regularización) frente a una arquitectura regularizada bajo las mismas condiciones de entrenamiento (100 épocas, optimizador Adam).
+Se comparó el desempeño de una arquitectura base (sin regularización) frente a una arquitectura regularizada bajo las mismas condiciones de entrenamiento (80 épocas, optimizador Adam).
 
 # Resultado Principal:
 El modelo con Dropout logró eliminar la tendencia alcista de la pérdida de validación observada en el modelo base, logrando una curva de aprendizaje más estable y un mejor desempeño final en los datos de prueba.

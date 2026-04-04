@@ -11,4 +11,4 @@ Se comparó el desempeño de una arquitectura base (sin regularización) frente 
 El modelo con Dropout logró eliminar la tendencia alcista de la pérdida de validación observada en el modelo base, logrando una curva de aprendizaje más estable y un mejor desempeño final en los datos de prueba.
 
 # Cómo ejecutar el notebook
-Abrir el archivo terminado en '.ipynb' en Google Colab. Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todasy si es coherente con el ejemplo y lo que pide la actividad
+Abrir el archivo terminado en `.ipynb` en Google Colab. Ejecutar las celdas en orden -> Entorno de Ejecución --> Ejecutar todasy si es coherente con el ejemplo y lo que pide la actividad

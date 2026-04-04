@@ -1,5 +1,5 @@
 # Actividad 4: Métodos de Regularización en una Red Neuronal
-#Objetivo
+# Objetivo
 Implementar técnicas de regularización para reducir el sobreajuste y mejorar la generalización del modelo.
 
 # Métodos de regularización aplicados:

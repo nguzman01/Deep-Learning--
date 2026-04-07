@@ -1,5 +1,4 @@
 
-
 # Objetivo
 Implementar y validar una red neuronal basica 
 

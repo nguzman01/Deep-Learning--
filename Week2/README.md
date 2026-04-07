@@ -26,7 +26,7 @@ Para validar la lógica de la neurona, se realizó una prueba controlada utiliza
 
 **Métricas:** El modelo presenta un desempeño balanceado entre precisión y sensibilidad (recall) para ambas clases.
 
-**Conclusión:** El puntaje Z actúa como el motor de decisión; valores positivos activan la neurona hacia la clase de riesgo, demostrando la importancia de la configuración de pesos y bias en la frontera de decisión.
+**Conclusión:** El puntaje Z actúa como el motor de decisión; valores positivos activan la neurona hacia la clase de riesgo, demostrando la importancia de la configuración de pesos y bias en la frontera de decisión. 
 
 
 # Cómo Ejecutar

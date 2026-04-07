@@ -26,7 +26,7 @@ Esto confirma que Adam es más eficiente para este conjunto de datos, logrando m
 | :--- | :--- | :--- | :--- |
 | A (Base) | SGD (lr=0.01) | 77.52% | 0.4670 |
 | B (Optimizada) | Adam (lr=0.001) | 82.02% | 0.4458 |
-
+ 
 
 # Cómo ejecutar el notebook
 1. Abrir el archivo terminado en '.ipynb' en Google Colab.

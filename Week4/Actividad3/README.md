@@ -4,7 +4,7 @@
 Implementar y comparar técnicas de optimización (SGD vs. Adam) en una red neuronal.
 
 
-# Técnicas Comparadas
+# Técnicas Comparadas 
 Se realizó un análisis comparativo entre:
 
 El optimizador SGD (Stochastic Gradient Descent) con un learning_rate=0.01 como modelo base. 
